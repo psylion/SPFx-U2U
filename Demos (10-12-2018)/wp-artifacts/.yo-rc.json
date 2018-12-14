@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "wp-artifacts",
+    "libraryId": "ed16b57e-df7a-45e8-a45c-ad6b00bc143c",
+    "environment": "spo"
+  }
+}

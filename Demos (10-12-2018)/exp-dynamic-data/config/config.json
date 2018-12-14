@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dynamic-data-source-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicDataSource/DynamicDataSourceWebPart.js",
+          "manifest": "./src/webparts/dynamicDataSource/DynamicDataSourceWebPart.manifest.json"
+        }
+      ]
+    },
+    "dynamic-data-consumer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicDataConsumer/DynamicDataConsumerWebPart.js",
+          "manifest": "./src/webparts/dynamicDataConsumer/DynamicDataConsumerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DynamicDataSourceWebPartStrings": "lib/webparts/dynamicDataSource/loc/{locale}.js",
+    "DynamicDataConsumerWebPartStrings": "lib/webparts/dynamicDataConsumer/loc/{locale}.js"
+  }
+}

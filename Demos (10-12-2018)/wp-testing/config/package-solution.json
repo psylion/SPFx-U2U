@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wp-testing-client-side-solution",
+    "id": "01c26e7b-f5a9-4577-bfe9-6f1f2fab253f",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/wp-testing.sppkg"
+  }
+}

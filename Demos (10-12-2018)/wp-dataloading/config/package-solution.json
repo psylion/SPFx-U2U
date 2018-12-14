@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wp-dataloading-client-side-solution",
+    "id": "c3772d05-a5d7-4a90-88f5-cd3f1be03d47",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/wp-dataloading.sppkg"
+  }
+}

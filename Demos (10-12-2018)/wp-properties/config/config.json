@@ -1,0 +1,54 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "simple-properties-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleProperties/SimplePropertiesWebPart.js",
+          "manifest": "./src/webparts/simpleProperties/SimplePropertiesWebPart.manifest.json"
+        }
+      ]
+    },
+    "dynamic-drop-down-options-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicDropDownOptions/DynamicDropDownOptionsWebPart.js",
+          "manifest": "./src/webparts/dynamicDropDownOptions/DynamicDropDownOptionsWebPart.manifest.json"
+        }
+      ]
+    },
+    "cascading-properties-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cascadingProperties/CascadingPropertiesWebPart.js",
+          "manifest": "./src/webparts/cascadingProperties/CascadingPropertiesWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-validation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyValidation/PropertyValidationWebPart.js",
+          "manifest": "./src/webparts/propertyValidation/PropertyValidationWebPart.manifest.json"
+        }
+      ]
+    },
+    "custom-properties-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customProperties/CustomPropertiesWebPart.js",
+          "manifest": "./src/webparts/customProperties/CustomPropertiesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SimplePropertiesWebPartStrings": "lib/webparts/simpleProperties/loc/{locale}.js",
+    "DynamicDropDownOptionsWebPartStrings": "lib/webparts/dynamicDropDownOptions/loc/{locale}.js",
+    "CascadingPropertiesWebPartStrings": "lib/webparts/cascadingProperties/loc/{locale}.js",
+    "PropertyValidationWebPartStrings": "lib/webparts/propertyValidation/loc/{locale}.js",
+    "CustomPropertiesWebPartStrings": "lib/webparts/customProperties/loc/{locale}.js"
+  }
+}

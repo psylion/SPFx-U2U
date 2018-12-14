@@ -1,0 +1,6 @@
+.item {
+  cursor: pointer;
+  &:hover{
+    background-color: purple;
+  }
+}

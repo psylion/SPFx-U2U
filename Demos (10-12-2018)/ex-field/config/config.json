@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "people-column-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/peopleColumn/PeopleColumnFieldCustomizer.js",
+          "manifest": "./src/extensions/peopleColumn/PeopleColumnFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PeopleColumnFieldCustomizerStrings": "lib/extensions/peopleColumn/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dataloading-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataloading/DataloadingWebPart.js",
+          "manifest": "./src/webparts/dataloading/DataloadingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DataloadingWebPartStrings": "lib/webparts/dataloading/loc/{locale}.js"
+  }
+}

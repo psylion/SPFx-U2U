@@ -1,0 +1,52 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "angular-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/angularWp/AngularWpWebPart.js",
+          "manifest": "./src/webparts/angularWp/AngularWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "j-query-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jQueryWp/JQueryWpWebPart.js",
+          "manifest": "./src/webparts/jQueryWp/JQueryWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "module-loader-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/moduleLoaderWp/ModuleLoaderWpWebPart.js",
+          "manifest": "./src/webparts/moduleLoaderWp/ModuleLoaderWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.3.1.min.js",
+      "globalName": "jQuery"
+    },
+    "cycle": {
+      "path": "https://malsup.github.io/min/jquery.cycle2.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "angular": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js",
+      "globalName": "angular"
+    }
+  },
+  "localizedResources": {
+    "AngularWpWebPartStrings": "lib/webparts/angularWp/loc/{locale}.js",
+    "JQueryWpWebPartStrings": "lib/webparts/jQueryWp/loc/{locale}.js",
+    "ModuleLoaderWpWebPartStrings": "lib/webparts/moduleLoaderWp/loc/{locale}.js"
+  }
+}

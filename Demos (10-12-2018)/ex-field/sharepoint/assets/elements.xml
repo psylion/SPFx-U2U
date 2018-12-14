@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{611ddbf2-8170-4a38-9e72-cc880c90086f}"
+            Name="Managed By"
+            DisplayName="Managed By"
+            Type="User"
+            UserSelectionMode="PeopleOnly"
+            ShowField="Name"
+            Required="TRUE"
+            Group="SPFx Columns"
+            ClientSideComponentId="ae414a5d-014d-4db4-b40c-cff3abac6a03">
+    </Field>
+</Elements>

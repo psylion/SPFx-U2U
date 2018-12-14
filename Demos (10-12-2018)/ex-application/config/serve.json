@@ -1,0 +1,38 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://u2u365.sharepoint.com/teams/SPFxTeamSite/SitePages/Test-WPs.aspx",
+      "customActions": {
+        "e591382b-cc88-4a7f-bb16-76a0a040c98f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "defaultColor": "red"
+          }
+        }
+      }
+    },
+    "breadCrumb": {
+      "pageUrl": "https://u2u365.sharepoint.com/teams/SPFxGroup/SitePages/Home.aspx",
+      "customActions": {
+        "9fbf9b8a-2d73-4dc4-b66f-bfab0376a140": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    },
+    "colorPrompt": {
+      "pageUrl": "https://u2u365.sharepoint.com/teams/SPFxTeamSite/SitePages/Test-WPs.aspx",
+      "customActions": {
+        "e591382b-cc88-4a7f-bb16-76a0a040c98f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "defaultColor": "red"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "a52cffe8-3864-465e-8503-dfc6a17849ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "exploreCustomizer": {
+      "pageUrl": "https://u2u365.sharepoint.com/teams/SPFxGroup/SitePages/Home.aspx",
+      "customActions": {
+        "a52cffe8-3864-465e-8503-dfc6a17849ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Howdy there!"
+          }
+        }
+      }
+    },
+    "u2UButtons": {
+      "pageUrl": "https://u2u365.sharepoint.com/teams/SPFxGroup/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "ef1632be-9ef0-4d44-bed9-a9975ebcc051": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

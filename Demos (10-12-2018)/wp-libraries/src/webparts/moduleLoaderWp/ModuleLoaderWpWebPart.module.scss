@@ -1,0 +1,38 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.sliderwp {
+  // Just something
+  background: #efefef;
+  height: 333px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 500px;
+
+  .slide {
+    height: auto;
+    width: 100%;
+  }
+
+  .pager {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    bottom: 10px;
+    height: 20px;
+    left: 10px;
+    line-height: 17px;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 999;
+
+    > span {
+      color: #fff;
+      cursor: pointer;
+      font-size: 20px;
+      margin: 2px;
+
+      &:hover {
+        color: #9f9f9f;
+      }
+    }
+  }
+}

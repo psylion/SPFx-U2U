@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "exp-artifacts-client-side-solution",
+    "id": "1ef70a25-1475-4833-b2a8-381ec041e68f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "id": "9958A97E-C8A1-4F4C-BF35-87366895214C",
+        "title": "SPFx Feature",
+        "description": "SPFx Feature",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "column.xml", 
+            "spfxpictures.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/exp-artifacts.sppkg"
+  }
+}

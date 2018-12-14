@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "wp-webpack",
+    "libraryId": "55677417-954d-40f8-ac91-4779cbe29204",
+    "environment": "spo"
+  }
+}

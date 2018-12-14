@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bread-crumb-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/breadCrumb/BreadCrumbApplicationCustomizer.js",
+          "manifest": "./src/extensions/breadCrumb/BreadCrumbApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "color-prompt-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/colorPrompt/ColorPromptApplicationCustomizer.js",
+          "manifest": "./src/extensions/colorPrompt/ColorPromptApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BreadCrumbApplicationCustomizerStrings": "lib/extensions/breadCrumb/loc/{locale}.js",
+    "ColorPromptApplicationCustomizerStrings": "lib/extensions/colorPrompt/loc/{locale}.js"
+  }
+}

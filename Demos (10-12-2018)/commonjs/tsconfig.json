@@ -1,0 +1,17 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "declaration": false,
+        "sourceMap": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

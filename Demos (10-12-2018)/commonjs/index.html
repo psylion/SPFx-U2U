@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Commonjs + Systemjs demo</title>
+</head>
+
+<body>
+
+    <h1>Commonjs and Systemjs demo</h1>
+    <h2>Logging from a module</h2>
+    <div class="logger">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.12/system.src.js"></script>
+
+    <script>
+        System.config({
+            baseURL: '/',
+            map: {
+                'app': '/'
+            },
+            paths: {
+                'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'
+            },
+            packages: {
+                app: {
+                    main: './index.js',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+
+        System.import('app');
+    </script>
+</body>
+
+</html>

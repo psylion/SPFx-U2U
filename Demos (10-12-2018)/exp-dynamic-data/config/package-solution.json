@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "exp-dynamic-data-client-side-solution",
+    "id": "2d469ce0-ffb7-45e8-8117-a598ea4acda2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/exp-dynamic-data.sppkg"
+  }
+}

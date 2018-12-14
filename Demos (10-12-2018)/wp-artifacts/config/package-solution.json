@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wp-artifacts-client-side-solution",
+    "id": "ed16b57e-df7a-45e8-a45c-ad6b00bc143c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "id": "6658A97E-C8A1-4F4C-BF35-87366895214C",
+        "title": "SPFx Artifacts",
+        "description": "",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "announcements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wp-artifacts.sppkg"
+  }
+}

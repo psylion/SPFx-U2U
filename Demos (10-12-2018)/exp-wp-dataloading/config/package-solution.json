@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "exp-wp-dataloading-client-side-solution",
+    "id": "6c94779f-7344-441f-b016-28bcdc1f7148",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/exp-wp-dataloading.sppkg"
+  }
+}

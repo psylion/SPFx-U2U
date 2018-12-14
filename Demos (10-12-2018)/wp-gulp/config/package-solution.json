@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wp-gulp-client-side-solution",
+    "id": "41a8d673-95e6-4b6a-8d5d-b65d6db45271",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/wp-gulp.sppkg"
+  }
+}

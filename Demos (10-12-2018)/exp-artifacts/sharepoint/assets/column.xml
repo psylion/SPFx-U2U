@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{66c2972f-586a-4227-8edb-61eeb6fd0577}"
+       Name="spfx_column"
+       DisplayName="SPFx Column"
+       Type="Text"
+       Required="FALSE"
+       Group="SPFx Site Columns">
+  </Field>
+</Elements>
